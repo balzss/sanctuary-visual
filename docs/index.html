@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sanctuary Visual · Architectural visualization for residential developments</title>
+  <meta name="description" content="Architectural visualization studio for residential developers. Stills and films that show buyers what living there feels like, before it's built.">
+  <meta name="theme-color" content="#0c0b09">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sanctuary Visual">
+  <meta property="og:title" content="Architectural visualization for residential developments">
+  <meta property="og:description" content="Stills and films for residential developers that show buyers what living there feels like, before it's built.">
+  <!-- Update both URLs if the site moves to a custom domain -->
+  <meta property="og:url" content="https://sanctuaryvisual.com/">
+  <meta property="og:image" content="https://sanctuaryvisual.com/assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://sanctuaryvisual.com/">
+  <!-- TODO: add email, telephone and sameAs (social profile URLs) once the real ones exist -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://sanctuaryvisual.com/#organization",
+        "name": "Sanctuary Visual",
+        "url": "https://sanctuaryvisual.com/",
+        "logo": "https://sanctuaryvisual.com/apple-touch-icon.png",
+        "description": "Architectural visualization studio for residential developers."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://sanctuaryvisual.com/#website",
+        "name": "Sanctuary Visual",
+        "url": "https://sanctuaryvisual.com/",
+        "publisher": { "@id": "https://sanctuaryvisual.com/#organization" }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h17M14 5.5l6.5 6.5-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M21 12H4M10 5.5 3.5 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 3.5v17L20.5 12z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/></symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24"><path d="M3 9v6h4l5 4V5L7 9z" fill="currentColor"/><path d="m16 9.5 5 5m0-5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="M3 9v6h4l5 4V5L7 9z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="btn site-header__cta" href="#contact">Discuss your project</a>
+    <a class="site-header__logo" href="#top">
+      <img src="assets/img/wordmark.png" width="640" height="33" alt="Sanctuary Visual">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu" data-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" data-menu>
+    <nav aria-label="Main">
+      <ul class="menu__links">
+        <li><a class="wide" style="--i:0" href="#work">Work</a></li>
+        <li><a class="wide" style="--i:1" href="#about">About</a></li>
+        <li><a class="wide" style="--i:2" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu__foot">
+      <!-- TODO: replace with the studio's real email address (also in #contact and the footer) -->
+      <a href="mailto:hello@example.com">hello@example.com</a>
+      <a class="btn" href="#contact">Discuss your project</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="Showreel">
+      <picture class="hero__media">
+        <source media="(max-aspect-ratio: 3/4)" type="image/avif" srcset="assets/img/posters/hero-portrait-608.avif">
+        <source media="(max-aspect-ratio: 3/4)" type="image/webp" srcset="assets/img/posters/hero-portrait-608.webp">
+        <source type="image/avif" sizes="100vw" srcset="assets/img/posters/hero-960.avif 960w, assets/img/posters/hero-1280.avif 1280w, assets/img/posters/hero-1912.avif 1912w">
+        <source type="image/webp" sizes="100vw" srcset="assets/img/posters/hero-960.webp 960w, assets/img/posters/hero-1280.webp 1280w, assets/img/posters/hero-1912.webp 1912w">
+        <img src="assets/img/posters/hero-1280.jpg" width="1912" height="1080" alt="" fetchpriority="high">
+      </picture>
+      <video class="hero__video" data-hero data-src="assets/video/hero" muted loop playsinline preload="none" aria-hidden="true"></video>
+      <div class="hero__cta">
+        <a class="btn" href="#contact">Discuss your project <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="hero__bar">
+        <h1 class="hero__title">Architectural visualization for residential developments</h1>
+        <button class="icon-btn" type="button" aria-pressed="false" aria-label="Pause background video" data-hero-toggle hidden>
+          <svg class="i-pause" aria-hidden="true"><use href="#i-pause"/></svg>
+          <svg class="i-play" aria-hidden="true"><use href="#i-play"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="intro" aria-label="Introduction">
+      <p class="intro__statement" data-reveal>
+        Buyers can't step inside a home that isn't built yet. <em>We show them what living there feels like.</em>
+      </p>
+      <div class="intro__aside" data-reveal>
+        <p>Sanctuary Visual is an architectural visualization studio for residential developers. Our stills and films are full of warm light and everyday life, made to win buyers over and help you sell off-plan.</p>
+        <a class="btn" href="#work">See the work <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+
+    <section class="work-block" id="work" aria-labelledby="stills-title">
+      <div class="block-head" data-reveal>
+        <h2 id="stills-title" class="wide"><small>01</small>Stills</h2>
+        <p class="counter" aria-hidden="true"><b data-current>01</b> / <span data-total>13</span></p>
+      </div>
+      <div class="carousel" data-carousel>
+        <ul class="carousel__track" role="list" tabindex="0" aria-label="Stills, scroll sideways for more" data-track>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="0">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet5-640.avif 640w, assets/img/stills/nezet5-1080.avif 1080w, assets/img/stills/nezet5-1600.avif 1600w, assets/img/stills/nezet5-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet5-640.webp 640w, assets/img/stills/nezet5-1080.webp 1080w, assets/img/stills/nezet5-1600.webp 1600w, assets/img/stills/nezet5-2400.webp 2400w">
+                <img src="assets/img/stills/nezet5-1600.jpg" width="1600" height="1195" alt="A woman walks her bicycle past a timber-clad apartment building in low autumn sun" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="1">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso6-640.avif 640w, assets/img/stills/belso6-1080.avif 1080w, assets/img/stills/belso6-1600.avif 1600w, assets/img/stills/belso6-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso6-640.webp 640w, assets/img/stills/belso6-1080.webp 1080w, assets/img/stills/belso6-1600.webp 1600w, assets/img/stills/belso6-2400.webp 2400w">
+                <img src="assets/img/stills/belso6-1600.jpg" width="1600" height="1200" alt="A woman crosses a warm, dark-toned living room with a cream sofa and a low wooden table" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="2">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet2-640.avif 640w, assets/img/stills/nezet2-1080.avif 1080w, assets/img/stills/nezet2-1600.avif 1600w, assets/img/stills/nezet2-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet2-640.webp 640w, assets/img/stills/nezet2-1080.webp 1080w, assets/img/stills/nezet2-1600.webp 1600w, assets/img/stills/nezet2-2400.webp 2400w">
+                <img src="assets/img/stills/nezet2-1600.jpg" width="1600" height="1195" alt="Children play around acorn-shaped play houses in a sunny courtyard below a white apartment building" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="3">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso1-640.avif 640w, assets/img/stills/belso1-1080.avif 1080w, assets/img/stills/belso1-1600.avif 1600w, assets/img/stills/belso1-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso1-640.webp 640w, assets/img/stills/belso1-1080.webp 1080w, assets/img/stills/belso1-1600.webp 1600w, assets/img/stills/belso1-2400.webp 2400w">
+                <img src="assets/img/stills/belso1-1600.jpg" width="1600" height="1195" alt="A laughing child in a cow costume sits on a pouf in a bright living room with a striped rug" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="4">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet1-640.avif 640w, assets/img/stills/nezet1-1080.avif 1080w, assets/img/stills/nezet1-1600.avif 1600w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet1-640.webp 640w, assets/img/stills/nezet1-1080.webp 1080w, assets/img/stills/nezet1-1600.webp 1600w">
+                <img src="assets/img/stills/nezet1-1600.jpg" width="1600" height="1200" alt="Cyclists ride past a residential block at dusk as the windows light up" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="5">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso4-640.avif 640w, assets/img/stills/belso4-1080.avif 1080w, assets/img/stills/belso4-1600.avif 1600w, assets/img/stills/belso4-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso4-640.webp 640w, assets/img/stills/belso4-1080.webp 1080w, assets/img/stills/belso4-1600.webp 1600w, assets/img/stills/belso4-2400.webp 2400w">
+                <img src="assets/img/stills/belso4-1600.jpg" width="1600" height="1200" alt="Overhead view of a living area with a cream sofa, a blue throw and a round dining table" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="6">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet3-640.avif 640w, assets/img/stills/nezet3-1080.avif 1080w, assets/img/stills/nezet3-1600.avif 1600w, assets/img/stills/nezet3-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet3-640.webp 640w, assets/img/stills/nezet3-1080.webp 1080w, assets/img/stills/nezet3-1600.webp 1600w, assets/img/stills/nezet3-2400.webp 2400w">
+                <img src="assets/img/stills/nezet3-1600.jpg" width="1600" height="1195" alt="A family walks past the entrance of a timber-clad residential building at golden hour" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="7">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso3-640.avif 640w, assets/img/stills/belso3-1080.avif 1080w, assets/img/stills/belso3-1600.avif 1600w, assets/img/stills/belso3-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso3-640.webp 640w, assets/img/stills/belso3-1080.webp 1080w, assets/img/stills/belso3-1600.webp 1600w, assets/img/stills/belso3-2400.webp 2400w">
+                <img src="assets/img/stills/belso3-1600.jpg" width="1600" height="1200" alt="Dining corner with a round wooden table, curved chairs and a sculptural pendant light" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="8">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet6-640.avif 640w, assets/img/stills/nezet6-1080.avif 1080w, assets/img/stills/nezet6-1600.avif 1600w, assets/img/stills/nezet6-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet6-640.webp 640w, assets/img/stills/nezet6-1080.webp 1080w, assets/img/stills/nezet6-1600.webp 1600w, assets/img/stills/nezet6-2400.webp 2400w">
+                <img src="assets/img/stills/nezet6-1600.jpg" width="1600" height="1195" alt="Residents relax on the balconies of a curved white apartment building" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="9">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso5-640.avif 640w, assets/img/stills/belso5-1080.avif 1080w, assets/img/stills/belso5-1600.avif 1600w, assets/img/stills/belso5-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso5-640.webp 640w, assets/img/stills/belso5-1080.webp 1080w, assets/img/stills/belso5-1600.webp 1600w, assets/img/stills/belso5-2400.webp 2400w">
+                <img src="assets/img/stills/belso5-1600.jpg" width="1600" height="1200" alt="Evening living room with a striped rug, a round dining table and a film playing on the TV" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="10">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet4-640.avif 640w, assets/img/stills/nezet4-1080.avif 1080w, assets/img/stills/nezet4-1600.avif 1600w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet4-640.webp 640w, assets/img/stills/nezet4-1080.webp 1080w, assets/img/stills/nezet4-1600.webp 1600w">
+                <img src="assets/img/stills/nezet4-1600.jpg" width="1600" height="1200" alt="Sunset over a landscaped courtyard, seen past a facade with planted balconies" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="11">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso2-640.avif 640w, assets/img/stills/belso2-1080.avif 1080w, assets/img/stills/belso2-1600.avif 1600w, assets/img/stills/belso2-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso2-640.webp 640w, assets/img/stills/belso2-1080.webp 1080w, assets/img/stills/belso2-1600.webp 1600w, assets/img/stills/belso2-2400.webp 2400w">
+                <img src="assets/img/stills/belso2-1600.jpg" width="1600" height="1200" alt="Open-plan kitchen and living room with a marble backsplash and oak floors" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="12">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet7-640.avif 640w, assets/img/stills/nezet7-1080.avif 1080w, assets/img/stills/nezet7-1600.avif 1600w, assets/img/stills/nezet7-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet7-640.webp 640w, assets/img/stills/nezet7-1080.webp 1080w, assets/img/stills/nezet7-1600.webp 1600w, assets/img/stills/nezet7-2400.webp 2400w">
+                <img src="assets/img/stills/nezet7-1600.jpg" width="1600" height="1195" alt="Santa Claus leans over a glass balcony railing on a timber-clad facade" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+        </ul>
+        <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Previous image" data-prev disabled>
+          <svg aria-hidden="true"><use href="#i-arrow-left"/></svg>
+        </button>
+        <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Next image" data-next>
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="work-block" aria-labelledby="social-title">
+      <div class="block-head" data-reveal>
+        <h2 id="social-title" class="wide"><small>02</small>For social</h2>
+        <p class="block-note">Vertical cuts made for social feeds. Tap a clip to hear it.</p>
+      </div>
+      <ul class="reels" role="list">
+        <li class="reel" data-reel>
+          <picture>
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-1-480.avif 480w, assets/img/posters/social-1-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-1-480.webp 480w, assets/img/posters/social-1-720.webp 720w">
+            <img src="assets/img/posters/social-1-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
+          </picture>
+          <video data-src="assets/video/social-1" muted loop playsinline preload="none"></video>
+          <button class="reel__btn" type="button" aria-pressed="false" aria-label="Sound: street life around the development">
+            <span class="icon-btn" aria-hidden="true"><svg class="i-off"><use href="#i-mute"/></svg><svg class="i-on"><use href="#i-sound"/></svg></span>
+          </button>
+        </li>
+        <li class="reel" data-reel>
+          <picture>
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-2-480.avif 480w, assets/img/posters/social-2-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-2-480.webp 480w, assets/img/posters/social-2-720.webp 720w">
+            <img src="assets/img/posters/social-2-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
+          </picture>
+          <video data-src="assets/video/social-2" muted loop playsinline preload="none"></video>
+          <button class="reel__btn" type="button" aria-pressed="false" aria-label="Sound: interior details">
+            <span class="icon-btn" aria-hidden="true"><svg class="i-off"><use href="#i-mute"/></svg><svg class="i-on"><use href="#i-sound"/></svg></span>
+          </button>
+        </li>
+        <li class="reel" data-reel>
+          <picture>
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-3-480.avif 480w, assets/img/posters/social-3-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-3-480.webp 480w, assets/img/posters/social-3-720.webp 720w">
+            <img src="assets/img/posters/social-3-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
+          </picture>
+          <video data-src="assets/video/social-3" muted loop playsinline preload="none"></video>
+          <button class="reel__btn" type="button" aria-pressed="false" aria-label="Sound: facades and streetscape">
+            <span class="icon-btn" aria-hidden="true"><svg class="i-off"><use href="#i-mute"/></svg><svg class="i-on"><use href="#i-sound"/></svg></span>
+          </button>
+        </li>
+        <li class="reel" data-reel>
+          <picture>
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-4-480.avif 480w, assets/img/posters/social-4-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-4-480.webp 480w, assets/img/posters/social-4-720.webp 720w">
+            <img src="assets/img/posters/social-4-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
+          </picture>
+          <video data-src="assets/video/social-4" muted loop playsinline preload="none"></video>
+          <button class="reel__btn" type="button" aria-pressed="false" aria-label="Sound: family life at home">
+            <span class="icon-btn" aria-hidden="true"><svg class="i-off"><use href="#i-mute"/></svg><svg class="i-on"><use href="#i-sound"/></svg></span>
+          </button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="work-block" aria-labelledby="film-title">
+      <div class="block-head" data-reveal>
+        <h2 id="film-title" class="wide"><small>03</small>Film</h2>
+        <p class="block-note">The full development film, with sound.</p>
+      </div>
+      <div class="film" data-film>
+        <video data-src="assets/video/film" controls playsinline preload="none"></video>
+        <picture>
+          <source type="image/avif" sizes="calc(100vw - 2 * clamp(16px, 4vw, 56px))" srcset="assets/img/posters/film-960.avif 960w, assets/img/posters/film-1280.avif 1280w, assets/img/posters/film-1920.avif 1920w">
+          <source type="image/webp" sizes="calc(100vw - 2 * clamp(16px, 4vw, 56px))" srcset="assets/img/posters/film-960.webp 960w, assets/img/posters/film-1280.webp 1280w, assets/img/posters/film-1920.webp 1920w">
+          <img src="assets/img/posters/film-1280.jpg" width="1920" height="1080" alt="" loading="lazy" decoding="async">
+        </picture>
+        <a class="film__play" href="assets/video/film-1080.mp4" data-film-play>
+          <span class="film__icon"><svg aria-hidden="true"><use href="#i-play"/></svg></span>
+          <span class="film__label">Play film · 1:20</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about__head" data-reveal>
+        <p class="eyebrow">About</p>
+        <h2 id="about-title" class="wide">How we work</h2>
+      </div>
+      <figure class="about__photo" data-reveal>
+        <picture>
+          <source type="image/avif" sizes="(min-width: 900px) 40vw, 100vw" srcset="assets/img/studio-800.avif 800w, assets/img/studio-1200.avif 1200w">
+          <source type="image/webp" sizes="(min-width: 900px) 40vw, 100vw" srcset="assets/img/studio-800.webp 800w, assets/img/studio-1200.webp 1200w">
+          <img src="assets/img/studio-1000.jpg" width="1000" height="1441" alt="The Sanctuary Visual studio entrance: a glass door with the duck logo, and a husky waiting inside" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      <div class="about__body" data-reveal>
+        <p class="about__lead">A technically perfect render can still leave buyers cold. We start from how people want to feel at home and build every image around it.</p>
+        <p>We combine rigorous 3D precision with modern AI tools to streamline our production, ensuring exceptional Art Direction without delaying your project timeline. Rather than focusing solely on technical renders, we design every image based on buyer psychology—crafting spatial stories that trigger an instant emotional connection. By combining artistic control with targeted sales strategy, we help developers elevate perceived project value and accelerate off-plan sales.</p>
+        <h3 class="about__sub">Winning the Attention War Together</h3>
+        <p>To give your project the edge it deserves, we continuously integrate the latest visual technologies with modern, platform-native marketing logic. When you work with us, we align our visual creation with a social media-optimised campaign strategy.</p>
+      </div>
+      <ol class="pillars" data-reveal>
+        <li>
+          <h3>Built for the Attention War</h3>
+          <p>We create dynamic, platform-native visual assets engineered to instantly capture target buyers' attention within the first two seconds of scrolling.</p>
+        </li>
+        <li>
+          <h3>Tech Meets Marketing Strategy</h3>
+          <p>By combining cutting-edge visual technologies with proven marketing solutions, we transform standard architectural renders into high-converting campaign assets.</p>
+        </li>
+        <li>
+          <h3>Frictionless Collaboration</h3>
+          <p>We make working together effortless through streamlined workflows, clear communication, and guaranteed delivery times, letting you focus fully on your development while we handle the visuals.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-title" class="wide contact__title" data-reveal>Discuss your project</h2>
+      <div class="contact__grid">
+        <div class="contact__side">
+          <p class="contact__intro">Tell us about your development and when you plan to launch. We'll come back with ideas and a proposal.</p>
+          <!-- TODO: real email address -->
+          <a class="contact__email" href="mailto:hello@example.com?subject=Project%20enquiry">hello@example.com</a>
+          <!-- TODO: replace or remove these placeholder details -->
+          <dl class="contact__details">
+            <div>
+              <dt class="eyebrow">Phone</dt>
+              <dd><a href="tel:+00000000000">+00 000 000 000</a></dd>
+            </div>
+            <div>
+              <dt class="eyebrow">Studio</dt>
+              <dd>City, Country</dd>
+            </div>
+            <div>
+              <dt class="eyebrow">Follow</dt>
+              <dd><a href="#">Instagram</a> · <a href="#">LinkedIn</a></dd>
+            </div>
+          </dl>
+        </div>
+        <!-- TODO: set action to the form service endpoint (for example a Formspree or Web3Forms URL) -->
+        <form class="form" action="https://formspree.io/f/TODO" method="post" data-form>
+          <label class="field">
+            <span class="eyebrow">Name</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label class="field">
+            <span class="eyebrow">Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label class="field">
+            <span class="eyebrow">Project size / scope</span>
+            <input type="text" name="scope" placeholder="Number of units, buildings, images or films you need" required>
+          </label>
+          <label class="field">
+            <span class="eyebrow">Expected launch date</span>
+            <input type="text" name="launch" placeholder="Month and year" required>
+          </label>
+          <label class="field field--hp" aria-hidden="true">Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+          <div class="form__foot">
+            <button class="btn btn--solid" type="submit">Send enquiry <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+            <p class="form__status" role="status" data-form-status></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#top"><img src="assets/img/wordmark.png" width="640" height="33" alt="Sanctuary Visual, back to top" loading="lazy" decoding="async"></a>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p>© <span data-year>2026</span> Sanctuary Visual</p>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Stills viewer" data-lightbox>
+    <ul class="lightbox__track" role="list" data-lb-track></ul>
+    <div class="lightbox__bar">
+      <p class="counter" aria-live="polite"><b data-lb-current>01</b> / <span data-lb-total>13</span></p>
+      <button class="icon-btn" type="button" aria-label="Close" data-lb-close>
+        <svg aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+    <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Previous image" data-lb-prev>
+      <svg aria-hidden="true"><use href="#i-arrow-left"/></svg>
+    </button>
+    <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Next image" data-lb-next>
+      <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+    </button>
+  </dialog>
+</body>
+</html>
