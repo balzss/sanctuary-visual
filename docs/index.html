@@ -485,14 +485,19 @@
               <dt class="eyebrow">Studio</dt>
               <dd>Budapest, Hungary</dd>
             </div>
+            <!-- TODO: re-enable once the social profile URLs exist
             <div>
               <dt class="eyebrow">Follow</dt>
               <dd><a href="#">Instagram</a> · <a href="#">LinkedIn</a></dd>
             </div>
+            -->
           </dl>
         </div>
-        <!-- TODO: set action to the form service endpoint (for example a Formspree or Web3Forms URL) -->
-        <form class="form" action="https://formspree.io/f/TODO" method="post" data-form>
+        <!-- Web3Forms: replace the access key below with the one for the studio inbox (the key is public by design) -->
+        <form class="form" action="https://api.web3forms.com/submit" method="post" data-form>
+          <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+          <input type="hidden" name="subject" value="New project enquiry from sanctuaryvisual.com">
+          <input type="hidden" name="from_name" value="Sanctuary Visual website">
           <label class="field">
             <span class="eyebrow">Name</span>
             <input type="text" name="name" autocomplete="name" required>
@@ -509,7 +514,7 @@
             <span class="eyebrow">Expected launch date</span>
             <input type="text" name="launch" placeholder="Month and year" required>
           </label>
-          <label class="field field--hp" aria-hidden="true">Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+          <label class="field field--hp" aria-hidden="true">Leave this empty <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
           <div class="form__foot">
             <button class="btn btn--solid" type="submit">Send enquiry <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
             <p class="form__status" role="status" data-form-status></p>

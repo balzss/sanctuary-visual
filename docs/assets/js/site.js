@@ -327,7 +327,8 @@
           body: new FormData(form),
           headers: { Accept: 'application/json' },
         });
-        if (!res.ok) throw new Error(res.status);
+        const result = await res.json().catch(() => ({}));
+        if (!res.ok || result.success === false) throw new Error(res.status);
         form.reset();
         status.textContent = "Thanks, we've got your enquiry and will be in touch soon.";
       } catch {
