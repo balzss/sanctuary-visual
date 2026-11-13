@@ -392,7 +392,7 @@ html:not(.js) .menu-toggle { display: none; }
 /* ---------- social reels ---------- */
 
 .reels {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap);
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--gap);
   margin: 0; padding: 0 var(--gutter); list-style: none;
 }
 .reel {
@@ -443,6 +443,7 @@ html:not(.js) .menu-toggle { display: none; }
 .film picture, .film img, .film video { position: absolute; inset: 0; width: 100%; height: 100%; }
 .film img { object-fit: cover; transition: transform 1.2s var(--ease); }
 .film video { object-fit: contain; }
+.film + .film { margin-top: var(--gap); }
 .film__play {
   position: absolute; inset: 0; z-index: 1;
   display: grid; place-content: center; justify-items: center; gap: 18px;
@@ -536,6 +537,7 @@ html:not(.js) .menu-toggle { display: none; }
   transition: color 0.2s, background-size 0.4s var(--ease);
   overflow-wrap: anywhere;
 }
+.contact__email + .contact__email { margin-top: calc(-1 * clamp(14px, 1.8vw, 28px)); }
 .contact__email:hover { color: var(--accent); background-size: 0 2px; background-position: 100% 100%; }
 .contact__details {
   display: grid; gap: 28px var(--gap);

@@ -136,10 +136,10 @@
   }, { threshold: [0, 0.6] });
   reels.forEach(reel => reelObserver.observe(reel));
 
-  // ---------- film: loads only when someone presses play ----------
+  // ---------- films: each loads only when someone presses play ----------
 
-  const film = $('[data-film]');
-  if (film) {
+  const films = $$('[data-film]');
+  for (const film of films) {
     const video = $('video', film);
     $('[data-film-play]', film).addEventListener('click', e => {
       e.preventDefault();
@@ -147,6 +147,7 @@
       const large = innerWidth * devicePixelRatio > 1400;
       loadVideo(video, `${base}-1080.av1.mp4`, `${base}-${large ? 1080 : 720}.mp4`);
       reels.forEach(r => setSound(r, false));
+      films.forEach(f => { if (f !== film) $('video', f).pause(); });
       film.classList.add('is-active');
       video.focus({ preventScroll: true });
       tryPlay(video);

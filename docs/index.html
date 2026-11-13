@@ -21,7 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="canonical" href="https://sanctuaryvisual.com/">
-  <!-- TODO: add email, telephone and sameAs (social profile URLs) once the real ones exist -->
+  <!-- TODO: add sameAs (social profile URLs) once the real ones exist -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -32,7 +32,10 @@
         "name": "Sanctuary Visual",
         "url": "https://sanctuaryvisual.com/",
         "logo": "https://sanctuaryvisual.com/apple-touch-icon.png",
-        "description": "Architectural visualization studio for residential developers."
+        "description": "Architectural visualization studio for residential developers.",
+        "email": "hello@sanctuaryvisual.com",
+        "telephone": "+36309218543",
+        "address": { "@type": "PostalAddress", "addressLocality": "Budapest", "addressCountry": "HU" }
       },
       {
         "@type": "WebSite",
@@ -82,8 +85,7 @@
       </ul>
     </nav>
     <div class="menu__foot">
-      <!-- TODO: replace with the studio's real email address (also in #contact and the footer) -->
-      <a href="mailto:hello@example.com">hello@example.com</a>
+      <a href="mailto:hello@sanctuaryvisual.com">hello@sanctuaryvisual.com</a>
       <a class="btn" href="#contact">Discuss your project</a>
     </div>
   </div>
@@ -91,8 +93,8 @@
   <main id="main">
     <section class="hero" id="top" aria-label="Showreel">
       <picture class="hero__media">
-        <source media="(max-aspect-ratio: 3/4)" type="image/avif" srcset="assets/img/posters/hero-portrait-608.avif">
-        <source media="(max-aspect-ratio: 3/4)" type="image/webp" srcset="assets/img/posters/hero-portrait-608.webp">
+        <source media="(max-aspect-ratio: 3/4)" type="image/avif" srcset="assets/img/posters/hero-portrait-607.avif">
+        <source media="(max-aspect-ratio: 3/4)" type="image/webp" srcset="assets/img/posters/hero-portrait-607.webp">
         <source type="image/avif" sizes="100vw" srcset="assets/img/posters/hero-960.avif 960w, assets/img/posters/hero-1280.avif 1280w, assets/img/posters/hero-1912.avif 1912w">
         <source type="image/webp" sizes="100vw" srcset="assets/img/posters/hero-960.webp 960w, assets/img/posters/hero-1280.webp 1280w, assets/img/posters/hero-1912.webp 1912w">
         <img src="assets/img/posters/hero-1280.jpg" width="1912" height="1080" alt="" fetchpriority="high">
@@ -123,12 +125,42 @@
     <section class="work-block" id="work" aria-labelledby="stills-title">
       <div class="block-head" data-reveal>
         <h2 id="stills-title" class="wide"><small>01</small>Stills</h2>
-        <p class="counter" aria-hidden="true"><b data-current>01</b> / <span data-total>13</span></p>
+        <p class="counter" aria-hidden="true"><b data-current>01</b> / <span data-total>20</span></p>
       </div>
       <div class="carousel" data-carousel>
         <ul class="carousel__track" role="list" tabindex="0" aria-label="Stills, scroll sideways for more" data-track>
           <li class="slide">
             <button class="slide__btn" type="button" data-open="0">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet10-bw-640.avif 640w, assets/img/stills/v2-nezet10-bw-1080.avif 1080w, assets/img/stills/v2-nezet10-bw-1600.avif 1600w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet10-bw-640.webp 640w, assets/img/stills/v2-nezet10-bw-1080.webp 1080w, assets/img/stills/v2-nezet10-bw-1600.webp 1600w">
+                <img src="assets/img/stills/v2-nezet10-bw-1600.jpg" width="1600" height="1200" alt="Black-and-white view of a playground between apartment blocks, an older woman with open arms and children playing" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="1">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet7-640.avif 640w, assets/img/stills/v2-nezet7-1080.avif 1080w, assets/img/stills/v2-nezet7-1600.avif 1600w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet7-640.webp 640w, assets/img/stills/v2-nezet7-1080.webp 1080w, assets/img/stills/v2-nezet7-1600.webp 1600w">
+                <img src="assets/img/stills/v2-nezet7-1600.jpg" width="1600" height="1200" alt="Corner of a white residential building with a blue car at the garage entrance" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="2">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet5-640.avif 640w, assets/img/stills/v2-nezet5-1080.avif 1080w, assets/img/stills/v2-nezet5-1600.avif 1600w, assets/img/stills/v2-nezet5-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet5-640.webp 640w, assets/img/stills/v2-nezet5-1080.webp 1080w, assets/img/stills/v2-nezet5-1600.webp 1600w, assets/img/stills/v2-nezet5-2400.webp 2400w">
+                <img src="assets/img/stills/v2-nezet5-1600.jpg" width="1600" height="1195" alt="Aerial view into a courtyard with a round pond, a path and lit balconies on both sides" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="3">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet5-640.avif 640w, assets/img/stills/nezet5-1080.avif 1080w, assets/img/stills/nezet5-1600.avif 1600w, assets/img/stills/nezet5-2400.avif 2400w">
@@ -138,7 +170,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="1">
+            <button class="slide__btn" type="button" data-open="4">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso6-640.avif 640w, assets/img/stills/belso6-1080.avif 1080w, assets/img/stills/belso6-1600.avif 1600w, assets/img/stills/belso6-2400.avif 2400w">
@@ -148,7 +180,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="2">
+            <button class="slide__btn" type="button" data-open="5">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet2-640.avif 640w, assets/img/stills/nezet2-1080.avif 1080w, assets/img/stills/nezet2-1600.avif 1600w, assets/img/stills/nezet2-2400.avif 2400w">
@@ -158,7 +190,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="3">
+            <button class="slide__btn" type="button" data-open="6">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso1-640.avif 640w, assets/img/stills/belso1-1080.avif 1080w, assets/img/stills/belso1-1600.avif 1600w, assets/img/stills/belso1-2400.avif 2400w">
@@ -168,7 +200,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="4">
+            <button class="slide__btn" type="button" data-open="7">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet1-640.avif 640w, assets/img/stills/nezet1-1080.avif 1080w, assets/img/stills/nezet1-1600.avif 1600w">
@@ -178,7 +210,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="5">
+            <button class="slide__btn" type="button" data-open="8">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso4-640.avif 640w, assets/img/stills/belso4-1080.avif 1080w, assets/img/stills/belso4-1600.avif 1600w, assets/img/stills/belso4-2400.avif 2400w">
@@ -188,7 +220,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="6">
+            <button class="slide__btn" type="button" data-open="9">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet3-640.avif 640w, assets/img/stills/nezet3-1080.avif 1080w, assets/img/stills/nezet3-1600.avif 1600w, assets/img/stills/nezet3-2400.avif 2400w">
@@ -198,7 +230,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="7">
+            <button class="slide__btn" type="button" data-open="10">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso3-640.avif 640w, assets/img/stills/belso3-1080.avif 1080w, assets/img/stills/belso3-1600.avif 1600w, assets/img/stills/belso3-2400.avif 2400w">
@@ -208,7 +240,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="8">
+            <button class="slide__btn" type="button" data-open="11">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet6-640.avif 640w, assets/img/stills/nezet6-1080.avif 1080w, assets/img/stills/nezet6-1600.avif 1600w, assets/img/stills/nezet6-2400.avif 2400w">
@@ -218,7 +250,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="9">
+            <button class="slide__btn" type="button" data-open="12">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso5-640.avif 640w, assets/img/stills/belso5-1080.avif 1080w, assets/img/stills/belso5-1600.avif 1600w, assets/img/stills/belso5-2400.avif 2400w">
@@ -228,7 +260,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="10">
+            <button class="slide__btn" type="button" data-open="13">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet4-640.avif 640w, assets/img/stills/nezet4-1080.avif 1080w, assets/img/stills/nezet4-1600.avif 1600w">
@@ -238,7 +270,7 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="11">
+            <button class="slide__btn" type="button" data-open="14">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/belso2-640.avif 640w, assets/img/stills/belso2-1080.avif 1080w, assets/img/stills/belso2-1600.avif 1600w, assets/img/stills/belso2-2400.avif 2400w">
@@ -248,12 +280,52 @@
             </button>
           </li>
           <li class="slide">
-            <button class="slide__btn" type="button" data-open="12">
+            <button class="slide__btn" type="button" data-open="15">
               <span class="visually-hidden">View full screen: </span>
               <picture>
                 <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet7-640.avif 640w, assets/img/stills/nezet7-1080.avif 1080w, assets/img/stills/nezet7-1600.avif 1600w, assets/img/stills/nezet7-2400.avif 2400w">
                 <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/nezet7-640.webp 640w, assets/img/stills/nezet7-1080.webp 1080w, assets/img/stills/nezet7-1600.webp 1600w, assets/img/stills/nezet7-2400.webp 2400w">
                 <img src="assets/img/stills/nezet7-1600.jpg" width="1600" height="1195" alt="Santa Claus leans over a glass balcony railing on a timber-clad facade" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="16">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet1-640.avif 640w, assets/img/stills/v2-nezet1-1080.avif 1080w, assets/img/stills/v2-nezet1-1600.avif 1600w, assets/img/stills/v2-nezet1-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet1-640.webp 640w, assets/img/stills/v2-nezet1-1080.webp 1080w, assets/img/stills/v2-nezet1-1600.webp 1600w, assets/img/stills/v2-nezet1-2400.webp 2400w">
+                <img src="assets/img/stills/v2-nezet1-1600.jpg" width="1600" height="1195" alt="Neighbours stroll along a garden path beneath a large tree, with a terraced apartment block behind" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="17">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet2-640.avif 640w, assets/img/stills/v2-nezet2-1080.avif 1080w, assets/img/stills/v2-nezet2-1600.avif 1600w, assets/img/stills/v2-nezet2-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet2-640.webp 640w, assets/img/stills/v2-nezet2-1080.webp 1080w, assets/img/stills/v2-nezet2-1600.webp 1600w, assets/img/stills/v2-nezet2-2400.webp 2400w">
+                <img src="assets/img/stills/v2-nezet2-1600.jpg" width="1600" height="1195" alt="Two people cross a lawn between white terraced apartment buildings" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="18">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet3-640.avif 640w, assets/img/stills/v2-nezet3-1080.avif 1080w, assets/img/stills/v2-nezet3-1600.avif 1600w, assets/img/stills/v2-nezet3-2400.avif 2400w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet3-640.webp 640w, assets/img/stills/v2-nezet3-1080.webp 1080w, assets/img/stills/v2-nezet3-1600.webp 1600w, assets/img/stills/v2-nezet3-2400.webp 2400w">
+                <img src="assets/img/stills/v2-nezet3-1600.jpg" width="1600" height="1195" alt="People sit on stone steps beside a pond in front of a terraced apartment building" loading="lazy" decoding="async">
+              </picture>
+            </button>
+          </li>
+          <li class="slide">
+            <button class="slide__btn" type="button" data-open="19">
+              <span class="visually-hidden">View full screen: </span>
+              <picture>
+                <source type="image/avif" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet6-640.avif 640w, assets/img/stills/v2-nezet6-1080.avif 1080w, assets/img/stills/v2-nezet6-1600.avif 1600w">
+                <source type="image/webp" sizes="min(88vw, 107vh)" srcset="assets/img/stills/v2-nezet6-640.webp 640w, assets/img/stills/v2-nezet6-1080.webp 1080w, assets/img/stills/v2-nezet6-1600.webp 1600w">
+                <img src="assets/img/stills/v2-nezet6-1600.jpg" width="1600" height="1200" alt="Aerial view of five apartment blocks among trees at sunset" loading="lazy" decoding="async">
               </picture>
             </button>
           </li>
@@ -275,8 +347,8 @@
       <ul class="reels" role="list">
         <li class="reel" data-reel>
           <picture>
-            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-1-480.avif 480w, assets/img/posters/social-1-720.avif 720w">
-            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-1-480.webp 480w, assets/img/posters/social-1-720.webp 720w">
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-1-480.avif 480w, assets/img/posters/social-1-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-1-480.webp 480w, assets/img/posters/social-1-720.webp 720w">
             <img src="assets/img/posters/social-1-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
           </picture>
           <video data-src="assets/video/social-1" muted loop playsinline preload="none"></video>
@@ -286,8 +358,8 @@
         </li>
         <li class="reel" data-reel>
           <picture>
-            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-2-480.avif 480w, assets/img/posters/social-2-720.avif 720w">
-            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-2-480.webp 480w, assets/img/posters/social-2-720.webp 720w">
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-2-480.avif 480w, assets/img/posters/social-2-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-2-480.webp 480w, assets/img/posters/social-2-720.webp 720w">
             <img src="assets/img/posters/social-2-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
           </picture>
           <video data-src="assets/video/social-2" muted loop playsinline preload="none"></video>
@@ -297,8 +369,8 @@
         </li>
         <li class="reel" data-reel>
           <picture>
-            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-3-480.avif 480w, assets/img/posters/social-3-720.avif 720w">
-            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-3-480.webp 480w, assets/img/posters/social-3-720.webp 720w">
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-3-480.avif 480w, assets/img/posters/social-3-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-3-480.webp 480w, assets/img/posters/social-3-720.webp 720w">
             <img src="assets/img/posters/social-3-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
           </picture>
           <video data-src="assets/video/social-3" muted loop playsinline preload="none"></video>
@@ -308,12 +380,23 @@
         </li>
         <li class="reel" data-reel>
           <picture>
-            <source type="image/avif" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-4-480.avif 480w, assets/img/posters/social-4-720.avif 720w">
-            <source type="image/webp" sizes="(max-width: 799px) 66vw, 23vw" srcset="assets/img/posters/social-4-480.webp 480w, assets/img/posters/social-4-720.webp 720w">
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-4-480.avif 480w, assets/img/posters/social-4-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-4-480.webp 480w, assets/img/posters/social-4-720.webp 720w">
             <img src="assets/img/posters/social-4-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
           </picture>
           <video data-src="assets/video/social-4" muted loop playsinline preload="none"></video>
           <button class="reel__btn" type="button" aria-pressed="false" aria-label="Sound: family life at home">
+            <span class="icon-btn" aria-hidden="true"><svg class="i-off"><use href="#i-mute"/></svg><svg class="i-on"><use href="#i-sound"/></svg></span>
+          </button>
+        </li>
+        <li class="reel" data-reel>
+          <picture>
+            <source type="image/avif" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-5-480.avif 480w, assets/img/posters/social-5-720.avif 720w">
+            <source type="image/webp" sizes="(max-width: 799px) 66vw, 18vw" srcset="assets/img/posters/social-5-480.webp 480w, assets/img/posters/social-5-720.webp 720w">
+            <img src="assets/img/posters/social-5-480.jpg" width="720" height="1280" alt="" loading="lazy" decoding="async">
+          </picture>
+          <video data-src="assets/video/social-5" muted loop playsinline preload="none"></video>
+          <button class="reel__btn" type="button" aria-pressed="false" aria-label="Sound: balconies and trees at golden hour">
             <span class="icon-btn" aria-hidden="true"><svg class="i-off"><use href="#i-mute"/></svg><svg class="i-on"><use href="#i-sound"/></svg></span>
           </button>
         </li>
@@ -322,8 +405,20 @@
 
     <section class="work-block" aria-labelledby="film-title">
       <div class="block-head" data-reveal>
-        <h2 id="film-title" class="wide"><small>03</small>Film</h2>
-        <p class="block-note">The full development film, with sound.</p>
+        <h2 id="film-title" class="wide"><small>03</small>Films</h2>
+        <p class="block-note">Full development films, with sound.</p>
+      </div>
+      <div class="film" data-film>
+        <video data-src="assets/video/film-2" controls playsinline preload="none"></video>
+        <picture>
+          <source type="image/avif" sizes="calc(100vw - 2 * clamp(16px, 4vw, 56px))" srcset="assets/img/posters/film-2-960.avif 960w, assets/img/posters/film-2-1280.avif 1280w, assets/img/posters/film-2-1920.avif 1920w">
+          <source type="image/webp" sizes="calc(100vw - 2 * clamp(16px, 4vw, 56px))" srcset="assets/img/posters/film-2-960.webp 960w, assets/img/posters/film-2-1280.webp 1280w, assets/img/posters/film-2-1920.webp 1920w">
+          <img src="assets/img/posters/film-2-1280.jpg" width="1920" height="1080" alt="" loading="lazy" decoding="async">
+        </picture>
+        <a class="film__play" href="assets/video/film-2-1080.mp4" data-film-play>
+          <span class="film__icon"><svg aria-hidden="true"><use href="#i-play"/></svg></span>
+          <span class="film__label">Play film · 0:59</span>
+        </a>
       </div>
       <div class="film" data-film>
         <video data-src="assets/video/film" controls playsinline preload="none"></video>
@@ -379,17 +474,16 @@
       <div class="contact__grid">
         <div class="contact__side">
           <p class="contact__intro">Tell us about your development and when you plan to launch. We'll come back with ideas and a proposal.</p>
-          <!-- TODO: real email address -->
-          <a class="contact__email" href="mailto:hello@example.com?subject=Project%20enquiry">hello@example.com</a>
-          <!-- TODO: replace or remove these placeholder details -->
+          <a class="contact__email" href="mailto:hello@sanctuaryvisual.com?subject=Project%20enquiry">hello@sanctuaryvisual.com</a>
+          <a class="contact__email" href="mailto:levente@sanctuaryvisual.com?subject=Project%20enquiry">levente@sanctuaryvisual.com</a>
           <dl class="contact__details">
             <div>
               <dt class="eyebrow">Phone</dt>
-              <dd><a href="tel:+00000000000">+00 000 000 000</a></dd>
+              <dd><a href="tel:+36309218543">+36 30 921 8543</a></dd>
             </div>
             <div>
               <dt class="eyebrow">Studio</dt>
-              <dd>City, Country</dd>
+              <dd>Budapest, Hungary</dd>
             </div>
             <div>
               <dt class="eyebrow">Follow</dt>
@@ -440,7 +534,7 @@
   <dialog class="lightbox" aria-label="Stills viewer" data-lightbox>
     <ul class="lightbox__track" role="list" data-lb-track></ul>
     <div class="lightbox__bar">
-      <p class="counter" aria-live="polite"><b data-lb-current>01</b> / <span data-lb-total>13</span></p>
+      <p class="counter" aria-live="polite"><b data-lb-current>01</b> / <span data-lb-total>20</span></p>
       <button class="icon-btn" type="button" aria-label="Close" data-lb-close>
         <svg aria-hidden="true"><use href="#i-close"/></svg>
       </button>
